@@ -19,64 +19,41 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
     </head>
 
-    <body>
-
-
-        <!--old header-->
-        <!--
-<header id="masthead">
-<div class="container">
-<a href="index.html" id="logo">Your Name</a>
-<nav>
-<a href="index.html">About</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="contact.html">Contact</a>
-</nav>
-</div>
-</header>
--->
-
-        <!--New Header Bootstrap-->
-        <!--
-<nav class="navbar navbar-default">
-<div class="container-fluid">
-<div class="navbar-header">
-<a class="navbar-brand" href="#">Matthew Gohr</a>
-</div>
-<ul class="nav navbar-nav navbar-right">
-<li><a href="#">About</a></li>
-<li><a href="#">Portfolio</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</div>
-</nav>
--->
+    <body style="padding-bottom:80px;">
 
         <!--        bootstrap v4-->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light mb-4">
 
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <a class="navbar-brand push-sm-1 ml-lg-3 ml-sm-2" href="#">Matt Gohr</a>
+                        </div>
+                        <div class="co-3 offset-4 offset-md-6 offset-xl-7">
+                            <ul class="navbar-nav">
 
-                <a class="navbar-brand push-sm-1" href="#">Matt Gohr</a>
-
-                <ul class="navbar-nav offset-md-7 offset-sm-6 offset-lg-8 offset-lx-9">
-
-                    <li class="nav-item justify-content-end">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li> 
-                </ul>
+                                <li class="nav-item justify-content-end">
+                                    <a class="nav-link active" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
 
@@ -88,25 +65,15 @@
                             <h1>About Me</h1>
                         </div>
                         <div class="row">
-<!--
-                            <div class="col-md-5">
-                                <img src="assets/images/Cropped%20Headshot%20(Smaller).png" class="auth-image img-fluid rounded" height="auto" style="height: 40vh; width: 55vh" alt="Your Name">
-                            </div>
-                            <div class="col-md-7 float-left">
-                                <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
 
-                                <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-                                
-                                <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-                                
-                            </div>
--->
                             <div class="col-md-12">
-                                <img src="assets/images/Cropped%20Headshot%20(Smaller).png" class="auth-image float-md-left img-fluid rounded" height="auto" style="height: 40vh; width: 55vh" alt="Matt Gohr">
+
+                                <img src="assets/images/Cropped%20Headshot%20(Smaller).png" class="auth-image float-md-left img-fluid rounded m-md-3" height="auto" style="height: 40vh; width: 50vh" alt="Matt Gohr">
+
                                 <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
 
                                 <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-                                
+
                                 <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
                             </div>
                         </div>
@@ -127,10 +94,10 @@
                 </section>
             </div>
         </div>
-        <footer class="bg-secondary text-light">
-            <div class="container">
+        <footer class="footer fixed-bottom bg-secondary text-light mt-4">
+            <div class="py-2">
                 <div class="row justify-content-center align-items-center font-weight-bold" style="height: 10vh">
-                    
+
                     <h4>Copyright &copy; 2017 Matthew Gohr</h4>
 
                 </div>

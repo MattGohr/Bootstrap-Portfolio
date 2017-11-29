@@ -1,76 +1,129 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<!--  <link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
+        <title>About | Your Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
+        <!--        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+        <!--  <link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
 
-<body>
+        <!--        Bootstrap v4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">    
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+        <!-- Bootstrap v3-->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+        <!--implementing jQuery-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
 
-        <h3>Hangman</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+    </head>
 
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+    <body style="padding-bottom:80px;">
 
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+        <!--        bootstrap NAV-->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light mb-4">
 
-        <h3>Rock Paper Scissors</h3>
-      </div>
 
-    </section>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <a class="navbar-brand push-sm-1 ml-lg-3 ml-sm-2" href="#">Matt Gohr</a>
+                        </div>
+                        <div class="co-3 offset-4 offset-md-6 offset-xl-7">
+                            <ul class="navbar-nav">
 
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
+                                <li class="nav-item justify-content-end">
+                                    <a class="nav-link " href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
+        <!--        portfolio-->
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 2016 Your Name
-    </div>
-  </footer>
-</body>
+        <div id="main-container" class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="row">
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div class="row">
+
+                        <div class="work col-6">
+                            <img class="img-fluid" src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+                            <h3>Hangman</h3>
+                        </div>
+                        <div class="work col-6">
+                            <img class="img-fluid" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+                            <h3>RPG Game</h3>
+                        </div>
+                        <div class="work col-6">
+                            <img class="img-fluid" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+                            <h3>Trivia Game</h3>
+                        </div>
+                        <div class="work col-6">
+                            <img class="img-fluid" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+                            <h3>Rutgers Info Widget</h3>
+                        </div>
+                        <div class="work col-6">
+                            <img class="img-fluid" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+                            <h3>Rock Paper Scissors</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--            Sidebar Social -->
+                <div class="sidebar col-md-4">
+                    <div class="row">
+                        <div class="col-12" id="connect">
+                            <h2>Connect with Me</h2>
+                        </div>
+                    </div>
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-4" href="#"><img class="social img-thumbnail img-fluid" src="assets/images/github-128.png"  alt="GitHub" /></div>
+                        <div class="col-4" href="#"><img class="social img-thumbnail img-fluid" src="assets/images/linkedin-128.png" alt="LinkedIn" /></div>
+                        <div class="col-4" href="#"><img class="social img-thumbnail img-fluid" src="assets/images/stackoverflow-128.png" alt="Stack Overflow" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer bg-secondary text-light mt-4">
+            <div class="container-fluid py-2">
+                <div class="row justify-content-center align-items-center font-weight-bold" style="height: 10vh">
+
+                    <h4>Copyright &copy; 2017 Matthew Gohr</h4>
+
+                </div>
+            </div>
+        </footer>
+    </body>
 
 </html>
